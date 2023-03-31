@@ -25,7 +25,7 @@ const PORT = 3001
 const io = require('socket.io')(server, {
     cors: {
         origin: '*',
-        methods: ['GET', 'POST']
+        methods: ['GET', 'POST', 'DELETE']
     }
 })
 
