@@ -5,7 +5,7 @@ const rooms = ['general', 'Tech', 'Cricket', 'trip'];
 const cors = require('cors');
 const { connectDB } = require('./Connection');
 const { Socket } = require('socket.io');
-const Message = require('./models/message');
+const Message = require('./models/Message');
 const User = require('./models/User');
 
 
